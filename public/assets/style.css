@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background: rgb(0,150,201);
+    background: linear-gradient(90deg, rgba(0,150,201,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.nav-item .active{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px 1px 5px 2px rgba(0, 0, 0, 0.247);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.nav-link .nav-item .active{
+    color: white;
+}
+
+.navbar-toggler{
+    color: #ffff;
+}
+
+.navbar-toggler-icon{
+    color: #ffff;
+}
+
+.navbar-collapse{
+    text-align: center;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.backgroundshape{
+    height: 460px;
+    text-align: center;
+}
+
+.backgroundshape h2{
+    margin-top: 20px;
+}
+
+.judulhalaman{
+    width: 450px;
+    text-align: center;
+}
+
+.judulhalaman h2{
+    color: #ffff;
+    text-shadow: -5px 0px 5px #2e2e2e;
+}
+
+.shapecard{
+    height: 400px;
+    width: 400px;
+    background: rgb(0,150,201);
+    background: linear-gradient(90deg, rgba(0,150,201,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 30px;
+    box-shadow: -5px 0px 10px 0px rgb(29, 29, 29);
+}
+
+ul li {
+    list-style-type: none;
+    list-style: none;
+    padding: 5px;
+}
+
+.list-group{
+    margin-left: -8px;
+}
+
+.list-group-item{
+    padding-top: 10px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.footer{
+    margin-top: 30px;
+    margin-right: 5px;
+    font-size: smaller;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
